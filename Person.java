@@ -20,7 +20,16 @@ public class Person
         this.alter = alter; 
         this.wohnort = wohnort;
     } 
-
+    
+    pubic void setName (String name)
+    {
+       this.name = name;
+    }
+   
+    public String getName()
+    {
+       return name;
+    }
     /**
      * Das Alter wird zurückgegeben.
      * @return: alter
